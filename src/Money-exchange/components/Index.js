@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import './index.css'
+
+
 function Index() {
 
     const InputQuantity = useRef(null);
@@ -12,19 +14,15 @@ function Index() {
 
     async function CallApi() {
         try {
-
             const response = await fetch('https://open.er-api.com/v6/latest/USD');
             const data = await response.json();
             setapiData(data.rates);
             setCurrKey(Object.keys(data.rates));
-            // console.log(Object.keys(data.rates));
-        } catch (e) {
-            console.log(e);
+        } catch (event) {
+            console.log(event);
         }
     }
 
-    console.log(apiData);
-    // console.log(currKey);
 
     useEffect(() => {
         CallApi();
@@ -48,7 +46,7 @@ function Index() {
 
         // console.log(fromValue[0][1], toValue[0][1]);
         // console.log((toValue[0][1] * quantity) / fromValue[0][1]);
-        
+
         const ans = (toValue[0][1] * quantity) / fromValue[0][1];
         setOutput(ans.toFixed(4));
 
