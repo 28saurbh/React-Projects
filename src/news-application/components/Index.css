@@ -117,7 +117,7 @@ nav ul li{
     border-right: 3px solid var(--background-color);
     padding: 5px;
 }
-.details a{
+.details button{
     text-decoration: none;
     width: fit-content;
     padding: 5px 7px;
@@ -126,6 +126,7 @@ nav ul li{
     font-weight: bold;
     border-radius: 5px;
     background-color: var(--background-color);
+    cursor: pointer;
 }
 
 @keyframes spinner {

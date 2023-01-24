@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+.quantity input{
+    width: 96%;
+    padding: 10px;
+    margin: 10px;
+}
+.selectionContainer select{
+    width: 46%;
+    padding: 10px;
+    margin: 10px;
+}
+.output{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    width: 97%;
+    padding: 10px;
+    background-color: #ffffff7d;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
