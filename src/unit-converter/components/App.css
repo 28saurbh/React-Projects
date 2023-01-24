@@ -1,0 +1,23 @@
+.container{
+    width: 90%;
+    margin: 50px auto;
+}
+.heading{
+    margin-bottom: 15px;
+}
+.fields{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.fields input{
+    width: 90%;
+    height: 3vh;
+}
+.fields label{
+    display: block;
+}
+.fields div{
+    margin-bottom: 10px;
+}
