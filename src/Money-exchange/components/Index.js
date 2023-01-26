@@ -23,11 +23,9 @@ function Index() {
         }
     }
 
-
     useEffect(() => {
         CallApi();
     }, []);
-
 
     function handleClick() {
         let from = FirstSelect.current.value;

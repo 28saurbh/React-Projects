@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.title, .new-user{
+    padding: 30px;
+}
+
+.title h2{
+    font-weight: 100;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+form input{
+    padding: 8px 10px;
+}
+
+form .login{
+    background-color: #ef4f5f;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #0000001c;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn img{
+    padding-inline: 10px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: .8;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(198, 177, 177, 0.571);
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
