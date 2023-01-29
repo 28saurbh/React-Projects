@@ -5,22 +5,22 @@
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
-header{
+nav{
     display: flex;
     align-items: center;
     margin-top: 20px;
     justify-content: space-between;
 }
 .logo, .login-logout{
-    width: 15%;
+    width: 20%;
     padding-inline-end: 20px;
 }
 .logo img{
-    width: 85%;
+    width: 100%;
     padding-inline: 10px;
 }
 
@@ -71,7 +71,9 @@ input:focus, select:focus{
     opacity: .7;
     padding: 30px 10px;
     font-size: medium;
-    word-spacing: 5px;
+}
+.path span{
+    padding-inline: 3px;
 }
 .path :last-child{
     opacity: .4;
@@ -80,14 +82,20 @@ input:focus, select:focus{
     display: flex;
     gap: 40px;
 }
-.tab-main .delivery, .Dining, .nightlife, h3{
+
+.tab-main .item, h3{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    filter: grayscale(100%);
     font-weight: 100;
     padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 2px solid #d64155;
+    color: #d64155;
 }
 
 .tab-icon{
@@ -96,12 +104,75 @@ input:focus, select:focus{
     object-fit: cover;
     padding: 15px;
 }
+
 .tab-icon img{
     width: 35px;
 }
+hr{
+    opacity: .7;
+}
 
-.active{
-    border-bottom: 2px solid #d64155;
-    filter: none;
+a{
+    text-decoration: none;
+}
 
+.btn-area{
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;
+}
+.btn button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #00000069;
+    background-color: white;
+    color: #00000069;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(248, 248, 248);
+}
+.btn button img{
+    width: 15px;
+    margin-right: 5px;
+}
+.background-gray{
+    background-color: #F8F8F8;
+}
+
+
+.top-food-box{
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.top-food-item, .top-brand-item{
+    text-align: center;
+    cursor: pointer;
+}
+.top-food-item img, .top-brand-item img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 3px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.top-food-item p{
+    font-size: 20px;
+}
+.top-food-head{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.top-brand-item p{
+    font-size: 16px;
+    text-align: center;
+}
+.top-brand-item p:last-child{
+    font-size: 14px;
+    text-align: center;
 }
