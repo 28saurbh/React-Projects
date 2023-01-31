@@ -7,7 +7,11 @@
 // import NewsAPP from './pages/News_application';
 // import { Route, Routes, Link } from "react-router-dom";
 // import Success from "./Login-Logout/success";
-import Zomato from './zomato/Index'
+// import Zomato from './zomato/Index'
+// import Redux from './Redux/components/App'
+// import NotesApp_Redux from './NotesAppRedux/components/index'
+// import Login_with_redux from './loginRedux/components/Index'
+import ProductCard from './product&cart/components/homepage/index'
 
 
 
@@ -26,8 +30,12 @@ function App() {
                 <Route path="*" element={<NotFound />} /> 
             </Routes> */}
 
-            <Zomato/>
-            
+            {/* <Zomato/> */}
+
+            {/* {<Redux/>} */}
+            {/* {<NotesApp_Redux/>} */}
+            {/* {<Login_with_redux/>} */}
+            {<ProductCard/>}
 
         </>
     );

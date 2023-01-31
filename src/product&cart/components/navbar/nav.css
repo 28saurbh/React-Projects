@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 30px;
+}
+.cartIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

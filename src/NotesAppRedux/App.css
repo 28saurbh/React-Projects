@@ -1,0 +1,94 @@
+.App {
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.first_heading{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 20px;
+    padding-inline: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    padding: 15px 0;
+}
+.search-box{
+    background-color: #80808063;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+
+.search-box img{
+    width: 25px;
+    padding-inline: 3px;
+}
+
+.search-box input{
+    background-color: #80808000;
+    border: none;
+    width: 96%;
+}
+
+.card-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 385px;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfb9b;;
+    padding: 15px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.buttom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-card{
+    background-color: rgba(0, 255, 255, 0.342);
+}
+.new-card textarea{
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.delete{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete img{
+    width: 25px;
+}

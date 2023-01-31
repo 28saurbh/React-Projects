@@ -8,100 +8,38 @@
     width: 80%;
     margin: auto;
 }
-
-header{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-.logo, .login-logout{
-    width: 15%;
-    padding-inline-end: 20px;
-}
-.logo img{
-    width: 85%;
-    padding-inline: 10px;
-}
-
-.search-area{
-    display: flex;
-    align-items: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 8px;
-    border-radius: 5px;
-    width: -webkit-fill-available;
-}
-
-.search-area select{
-    border: none;
-    padding-inline: 10px;
-    margin-right: 5px;
-}
-
-select option{
-    opacity: 0.5;
-    border: none;
-}
-
-.search-area img{
-    margin-inline: 10px;
-}
-.search-area input{
-    border: none;
-    width: 100%;
-}
-.line{
-    opacity: .7;
-    padding-inline: 5px;
-}
-
-input:focus, select:focus{
-    outline: none;
-}
-.login-logout{
-    width: 30%;
-    text-align: center;
-}
-.Login, .signup{
-    padding-inline: 10px;
-    opacity: .7;
-}
 .path{
-    opacity: .7;
-    padding: 30px 10px;
-    font-size: medium;
-    word-spacing: 5px;
-}
-.path :last-child{
-    opacity: .4;
-}
-.tab-main{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    padding: 15px 0;
 }
-.tab-main .delivery, .Dining, .nightlife, h3{
+hr{
+    opacity: 0.6;
+}
+.card{
+    padding: 10px 0;
+    display: flex;
+}
+.image img{
+    border-radius: 5px;
+}
+.productDetails{
+    padding-inline: 10px;
+    line-height: 1.5;
+}
+.box span{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+}
+.leftBox{
+    display: flex;
+    gap: 10px;
+    flex-basis: 50%;
+}
+.rightBox{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    filter: grayscale(100%);
-    font-weight: 100;
-    padding-bottom: 15px;
-}
-
-.tab-icon{
-    background-color: #80808014;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 15px;
-}
-.tab-icon img{
-    width: 35px;
-}
-
-.active{
-    border-bottom: 2px solid #d64155;
-    filter: none;
-
+    justify-content: space-evenly;
+    width: 30%;
 }

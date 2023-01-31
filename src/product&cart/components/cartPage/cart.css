@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+.path{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+hr{
+    opacity: 0.6;
+}
+.card{
+    padding: 10px 0;
+    display: flex;
+}
+
+.image img{
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+.productDetails{
+    padding-inline: 10px;
+    line-height: 1.5;
+}
+.box span{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+}
+.leftBox{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+.rightBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.remove{
+    cursor: pointer;
+}
+.btn{
+    margin-inline: 5px;
+}
+.footer{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+td{
+    padding: 5px 20px;
+    text-align: end;
+}
+.checkOut{
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.inputText input{
+    border: 2px solid darkcyan;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 80%;
+    padding: 2px 0;
+}
+.promoCode{
+    width: 40%;
+    padding-top: 10px;
+}
+.inputText{
+    padding-top: 10px;
+}
+.inputText button{
+    padding: 4px 20px;
+    background-color: darkcyan;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.lastTR
+{
+    font-weight: bold;
+}
