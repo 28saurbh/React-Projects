@@ -1,0 +1,12 @@
+.card, .productDetails{
+    display: flex;
+    justify-content: space-between;
+}
+.productDetails p{
+    padding-inline: 15px;
+}
+.cardList{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgba(128, 128, 128, 0.529);
+}

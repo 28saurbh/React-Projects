@@ -11,7 +11,8 @@
 // import Redux from './Redux/components/App'
 // import NotesApp_Redux from './NotesAppRedux/components/index'
 // import Login_with_redux from './loginRedux/components/Index'
-import ProductCard from './product&cart/components/homepage/index'
+// import ProductCard from './product&cart/components/homepage/index'
+import CartApp from './Cart-App/components/index'
 
 
 
@@ -35,7 +36,8 @@ function App() {
             {/* {<Redux/>} */}
             {/* {<NotesApp_Redux/>} */}
             {/* {<Login_with_redux/>} */}
-            {<ProductCard/>}
+            {/* {<ProductCard/>} */}
+            {<CartApp/>}
 
         </>
     );

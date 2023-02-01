@@ -1,0 +1,18 @@
+/* #f0f0f0 */
+.addItem{
+    background-color: #f0f0f0;
+    border: 2px solid rgba(128, 128, 128, 0.529);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto 20px auto;
+    padding: 30px;
+    width: 80%;
+}
+.inputContainer{
+    width: 60%;
+    display: flex;
+}
+.inputAdditem{
+    width: 50%;
+    margin-inline: 10px;
+}

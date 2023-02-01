@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 // import {store} from './Redux/redux/store'
 // import { store } from './NotesAppRedux/Redux/store';
 // import {store} from './loginRedux/redux/store'
-import {store} from './product&cart/redux/store'
+// import {store} from './product&cart/redux/store'
+import {store} from './Cart-App/redux/store'
 
 
 
